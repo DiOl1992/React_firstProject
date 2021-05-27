@@ -21,9 +21,9 @@ export default class App extends Component {
         this.state= {
             //данные передаются от сервера
             data : [
-                {label: 'Diana is beautiful name', important: true, like:false, id: 1},
-                {label: 'Olga is beautiful name', important: false, like:false, id: 2},
-                {label: 'Maya is beautiful name', important: false, like:false, id: 3}
+                {label: 'This is my new app!', important: true, like:false, id: 1},
+                {label: "Let's learn REACT together!", important: false, like:false, id: 2},
+                {label: 'Web development is great!', important: false, like:false, id: 3}
             ],
             term: '',
             filter: 'all'
